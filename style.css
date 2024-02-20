@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+/*Classes gerais*/
+.alinhamentocentral {
+  text-align: center;
+}
+
+/*Imagens CSS*/
+body {
+  background-image: url(Design/Vector_2677.jpg);
+  background-size: 100%;
+}
+
+.imagem {
+  width: 300px;
+  height: 300px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top: 30px solid rgb(19, 19, 95);
+  border-bottom: 30px solid rgb(19, 19, 95);
+  border-right: 30px solid rgb(19, 19, 95);
+  margin-top: 200px;
+}
+
+/*NavBar*/
+.NavBar {
+  display: inline-block;
+  border: 2px solid red;
+  width: 100%;
+  max-height: 200px;
+}
+.blocoimagem {
+  display: inline-block;
+  border: 2px solid green;
+  width: 10%;
+  text-align: left;
+  margin: 20px;
+  padding-right: 40%;
+  padding-top: 40px;
+}
+
+.blocolinks {
+  border: 2px solid blue;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.blocolinks a {
+  padding: 0px 40px;
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.blocologin {
+  border: 2px solid yellow;
+  display: inline-block;
+  text-decoration: none;
+  width: 140px;
+  height: 100px;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.blocologinimg {
+    display: inline-block;
+    text-align: left;
+    padding-right: 20px;
+    border: 2px solid purple;
+}
+
+/*Centro*/
+.marca {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.inblock {
+  display: inline-block;
+  text-align: center;
+}
+
+.linha {
+  border-bottom: 6px solid white;
+  border-radius: 10px;
+  margin: 20px;
+}
