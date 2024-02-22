@@ -4,75 +4,58 @@
   color: white;
 }
 
-/*Classes gerais*/
-.alinhamentocentral {
-  text-align: center;
-}
-
-/*Imagens CSS*/
+/* BackGround imagem e fonte */
 body {
   background-image: url(Design/Vector_2677.jpg);
   background-size: 100%;
+  font-family: 'SemplicitaFont', sans-serif;
 }
 
-.imagem {
-  width: 300px;
-  height: 300px;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top: 30px solid rgb(19, 19, 95);
-  border-bottom: 30px solid rgb(19, 19, 95);
-  border-right: 30px solid rgb(19, 19, 95);
-  margin-top: 200px;
+/*Classes gerais*/
+.alinhamentocentral {
+  text-align: center;
+  font-family: 'Semplicita', sans-serif;
 }
+
+/*Imagem*/
+
 
 /*NavBar*/
-.NavBar {
-  display: inline-block;
-  border: 2px solid red;
-  width: 100%;
-  max-height: 200px;
-}
-.blocoimagem {
-  display: inline-block;
-  border: 2px solid green;
-  width: 10%;
-  text-align: left;
-  margin: 20px;
-  padding-right: 40%;
-  padding-top: 40px;
+.navbar-nav .link-do-nav {
+  color: rgb(207, 27, 27);
+  position: relative;
 }
 
-.blocolinks {
-  border: 2px solid blue;
+.link-do-nav:hover {
+  color: rgb(0, 0, 0); /* Mudar a cor ao passar o mouse */
+}
+
+.texto-login {
+  position: relative;
+}
+
+.texto-login img {
+  height: 100%;
+}
+
+.texto-login img,
+.texto-login {
   display: inline-block;
-  text-align: center;
-  margin: 20px;
+  vertical-align: middle;
 }
 
-.blocolinks a {
-  padding: 0px 40px;
-  text-decoration: none;
-  font-size: 2.5em;
-  font-weight: 600;
+.link-do-nav:hover .texto-login {
+  color: yellow; /* Mudar a cor do texto ao passar o mouse */
 }
 
-.blocologin {
-  border: 2px solid yellow;
-  display: inline-block;
-  text-decoration: none;
-  width: 140px;
-  height: 100px;
-  text-align: right;
-  padding-bottom: 20px;
+.link-do-nav {
+  transition: color 0.3s; /* Adiciona uma transição suave para o efeito de hover */
 }
 
-.blocologinimg {
-    display: inline-block;
-    text-align: left;
-    padding-right: 20px;
-    border: 2px solid purple;
+.link-do-nav:hover {
+  color: yellow; /* Altera a cor do texto ao passar o mouse */
 }
+
 
 /*Centro*/
 .marca {
