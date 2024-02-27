@@ -1,75 +1,150 @@
+/* classes gerais*/
+
 * {
   margin: 0px;
   padding: 0px;
   color: white;
 }
 
-/* BackGround imagem e fonte */
+@font-face {
+  font-family: 'semplicitá';
+  src: url('Design/Fonte/semplicita.light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'semplicitá bold';
+  src: url('Design/Fonte/semplicita.bold.otf') format('opentype');
+}
+
 body {
   background-image: url(Design/Vector_2677.jpg);
   background-size: 100%;
-  font-family: 'SemplicitaFont', sans-serif;
+  font-family: 'semplicitá', sans-serif !important;
 }
 
-/*Classes gerais*/
 .alinhamentocentral {
   text-align: center;
-  font-family: 'Semplicita', sans-serif;
 }
-
-/*Imagem*/
-
-
-/*NavBar*/
-.navbar-nav .link-do-nav {
-  color: rgb(207, 27, 27);
-  position: relative;
-}
-
-.link-do-nav:hover {
-  color: rgb(0, 0, 0); /* Mudar a cor ao passar o mouse */
-}
-
-.texto-login {
-  position: relative;
-}
-
-.texto-login img {
-  height: 100%;
-}
-
-.texto-login img,
-.texto-login {
-  display: inline-block;
-  vertical-align: middle;
-}
+/*css nav*/
 
 .link-do-nav:hover .texto-login {
-  color: yellow; /* Mudar a cor do texto ao passar o mouse */
+  color: yellow;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 1.5);
+  transform: translateY(-10px);
 }
 
 .link-do-nav {
-  transition: color 0.3s; /* Adiciona uma transição suave para o efeito de hover */
+  transition: color 0.3s;
 }
 
-.link-do-nav:hover {
-  color: yellow; /* Altera a cor do texto ao passar o mouse */
+/*Index - VOU FAZER AINDA ME ENCHE O SACO NÃO*/
+
+
+.secaoindex {
+  display: flex;
+  margin-top: 100px;
+}
+.secaoindex article {
+  margin: 0 auto;
 }
 
+.imgesquerda{
+ height: 440px;
+ width: 500px;
+ border: 40px solid rgba(0, 0, 0, .4);
+ background-image: url(Design/bg2.jpg);
+ background-position:left;
+border-left: none;
+/*border: 10px solid #05192a;*/
+ border-radius: 0px 200px 200px 0px;
+ margin-right: 0;
+}
 
-/*Centro*/
-.marca {
-  font-size: 3em;
+.divslp {
+width: 420px;
+height: 500px;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+.divslp hr {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.divslp h1 {
+  font-size: 6em;
+  font-weight: 1000;
+  font-family: 'semplicitá bold' !important;
+  text-shadow: #fff 1.4px 1.4px 5px;
+}
+.divslp h2 {
+  margin-top: 20px;
   font-weight: 600;
-}
-
-.inblock {
-  display: inline-block;
+  font-size: 1.7em;
   text-align: center;
 }
 
-.linha {
-  border-bottom: 6px solid white;
-  border-radius: 10px;
+.border {
+  border: 6px solid rgb(56, 45, 45) ;
+}
+
+.search {
+  margin: 0 auto;
+  width: 600px;
+  background-color: azure;
+  border-radius: 40px;
+  padding: 5px 10px;
+}
+
+
+/*Exclusivo do curso*/
+
+.cursotop {
+  text-align: center;
+  margin: 40px;
+}
+
+.cursotop p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.blococurso {
+  font-size: 1.5em;
+  display: flex;
   margin: 20px;
+  width: 400px;
+  height: 440px;
+  border-radius: 20px;
+  background-color: rgb(30, 61, 162);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.blococurso:hover {
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 1.5);
+  transform: translateY(-10px);
+}
+
+.blococurso p {
+  width: 80%;
+}
+
+.blococurso img {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
