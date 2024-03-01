@@ -41,23 +41,7 @@ body {
 
 
 .secaoindex {
-  display: flex;
   margin-top: 100px;
-}
-.secaoindex article {
-  margin: 0 auto;
-}
-
-.imgesquerda{
- height: 440px;
- width: 500px;
- border: 40px solid rgba(0, 0, 0, .4);
- background-image: url(Design/bg2.jpg);
- background-position:left;
-border-left: none;
-/*border: 10px solid #05192a;*/
- border-radius: 0px 200px 200px 0px;
- margin-right: 0;
 }
 
 .divslp {
@@ -148,3 +132,6 @@ margin-bottom: 20px;
   align-items: center;
   flex-wrap: wrap;
 }
+
+/*registrar*/
+
